@@ -11,5 +11,10 @@ pipeline {
                     sh "./gradlew test"
                }
           }
+          stage("Unit test 2") {
+               steps { 
+                    sh "uptime"
+               }
+          }
      }
 }
