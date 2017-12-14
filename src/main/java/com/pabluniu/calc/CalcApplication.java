@@ -10,9 +10,3 @@ public class CalcApplication {
 		SpringApplication.run(CalcApplication.class, args);
 	}
 }
-@Service
-public class Calculator {
-	int sum(int a, int b){
-		return a + b;
-	}
-}
